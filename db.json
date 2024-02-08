@@ -2,10 +2,10 @@
   "transactions": [
     {
       "id": 2,
-      "date": "2019-12-01",
-      "description": "South by Southwest Quinoa Bowl at Fresh & Co",
+      "date": "2024-12-01",
+      "description": "Shopping at Quickmart",
       "category": "Food",
-      "amount": -10.55
+      "amount": "4999.45"
     },
     {
       "id": 3,
