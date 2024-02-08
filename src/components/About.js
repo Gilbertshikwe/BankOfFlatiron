@@ -2,9 +2,9 @@ import React from 'react';
 
 export default function About() {
   return (
-    <div>
-      <h2>About Us</h2>
-      <img src="download.jpeg" alt="Flatiron Bank" />
+    <div className="about">
+      <h1>About Us</h1>
+      <img src="download.jpeg" alt="Flatiron Bank" className='bank-image'/>
       <h1>Welcome to Flatiron Bank</h1>
 
     <p>

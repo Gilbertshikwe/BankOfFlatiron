@@ -49,6 +49,7 @@ export default function TransactionTable({ transactions, onDelete, onEdit }) {
           ))}
         </tbody>
       </Table>
+      
     </div>
   );
 }

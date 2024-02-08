@@ -4,9 +4,11 @@ import AddTransactionForm from '../components/AddTransactionForm';
 const AddTransaction = () => {
   return (
     <div>
-      <h2>Add Transaction</h2>
+      
       <AddTransactionForm />
+
     </div>
+
   );
 };
 

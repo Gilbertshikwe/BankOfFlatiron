@@ -9,6 +9,7 @@ import Home from './components/Home';
 import NavBar from './components/NavBar';
 import About from './components/About';
 import AddTransaction from './components/AddTransaction';
+import '/home/gilbert/BankOfFlatiron/src/App.css'
 
 function App() {
   const [transactions, setTransactions] = useState([]);
@@ -83,7 +84,7 @@ function App() {
 
   return (
     <div className="App">
-      <h2>Bank Of FlatIron</h2>
+      <h1>Bank Of FlatIron</h1>
       <Router>
       <div className="App">
         <NavBar />
@@ -96,9 +97,10 @@ function App() {
     </Router>
       <SearchBar onSearch={handleSearch} />
       <br />
+      {/*
       <button style={{ margin: 10 }} className='btn btn-primary' onClick={() => handleSort(null)}>Clear Sort</button>
       <button style={{ margin: 10 }} className='btn btn-primary' onClick={() => handleSort('category')}>Sort by Category</button>
-      <button style={{ margin: 10 }} className='btn btn-primary' onClick={() => handleSort('description')}>Sort by Description</button>
+  <button style={{ margin: 10 }} className='btn btn-primary' onClick={() => handleSort('description')}>Sort by Description</button>*/}
       <TransactionTable transactions={filteredTransactions} onDelete={handleDelete} onEdit={handleEdit} /> {/* Pass handleEdit function */}
       {editMode && (
         <EditTransactionForm
@@ -107,7 +109,7 @@ function App() {
           onCancel={() => setEditMode(null)} 
         />
       )}
-      <AddTransactionForm onAdd={addTransaction} />
+     
     </div>
   );
 }

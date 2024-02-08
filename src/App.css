@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: antiquewhite;
 }
 
 .App-logo {
@@ -10,6 +11,39 @@
 button {
   margin: 10vh
 }
+/* App.css */
+
+h1,h2{
+  text-align: center;
+}
+/* NavBar.css */
+.navbar {
+  background-color: #333;
+  padding: 10px;
+  display: flex;
+  justify-content: center; /* Center the items horizontally */
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: center; /* Center the items horizontally */
+}
+
+.nav-item {
+  margin: 0;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  margin: 0 15px; /* Add spacing between the links */
+}
+
+
+
 
 
 
